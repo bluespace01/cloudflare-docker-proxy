@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.bluespace.asia", custom_domain = true },
-#   { pattern = "quay.bluespace.asia", custom_domain = true },
-#   { pattern = "gcr.bluespace.asia", custom_domain = true },
-#   { pattern = "k8s-gcr.bluespace.asia", custom_domain = true },
-#   { pattern = "k8s.bluespace.asia", custom_domain = true },
-#   { pattern = "ghcr.bluespace.asia", custom_domain = true },
-#   { pattern = "cloudsmith.bluespace.asia", custom_domain = true },
+#   { pattern = "docker.flashman.asia", custom_domain = true },
+#   { pattern = "quay.flashman.asia", custom_domain = true },
+#   { pattern = "gcr.flashman.asia", custom_domain = true },
+#   { pattern = "k8s-gcr.flashman.asia", custom_domain = true },
+#   { pattern = "k8s.flashman.asia", custom_domain = true },
+#   { pattern = "ghcr.flashman.asia", custom_domain = true },
+#   { pattern = "cloudsmith.flashman.asia", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.bluespace.asia", custom_domain = true }
+# route = { pattern = "docker-staging.flashman.asia", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
