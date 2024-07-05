@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.bluespace.asia": dockerHub,
-  "quay.bluespace.asia": "https://quay.io",
-  "gcr.bluespace.asia": "https://gcr.io",
-  "k8s-gcr.bluespace.asia": "https://k8s.gcr.io",
-  "k8s.bluespace.asia": "https://registry.k8s.io",
-  "ghcr.bluespace.asia": "https://ghcr.io",
-  "cloudsmith.bluespace.asia": "https://docker.cloudsmith.io",
-  "ecr.bluespace.asia": "https://public.ecr.aws",
+  "docker.flashman.asia": dockerHub,
+  "quay.flashman.asia": "https://quay.io",
+  "gcr.flashman.asia": "https://gcr.io",
+  "k8s-gcr.flashman.asia": "https://k8s.gcr.io",
+  "k8s.flashman.asia": "https://registry.k8s.io",
+  "ghcr.flashman.asia": "https://ghcr.io",
+  "cloudsmith.flashman.asia": "https://docker.cloudsmith.io",
+  "ecr.flashman.asia": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.bluespace.asia": dockerHub,
+  "docker-staging.flashman.asia": dockerHub,
 };
 
 function routeByHosts(host) {
